@@ -6,18 +6,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Better Cookie Clicker</h1>
+        <h2>Settings</h2>
+        <p>Auto Clicker</p>
+        <p>Auto Golden Cookie Clicker</p>
+        <p>Auto Upgrade</p>
+        <p>Auto Building</p>
+        <p>Stock Helper</p>
+        <h2>Stats</h2>
+        <p>Upgrades Bought</p>
+        <p>Buildings Bought</p>
+        <p>Cookie Clicks</p>
+        <p>Golden Cookies Clicked</p>
       </header>
     </div>
   );

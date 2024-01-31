@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Button from '../../components/Button';
 
 function App() {
   return (
@@ -8,11 +8,11 @@ function App() {
       <header className="App-header">
         <h1>Better Cookie Clicker</h1>
         <h2>Settings</h2>
-        <p>Auto Clicker</p>
-        <p>Auto Golden Cookie Clicker</p>
-        <p>Auto Upgrade</p>
-        <p>Auto Building</p>
-        <p>Stock Helper</p>
+        <Button text="Auto Clicker" />
+        <Button text="Auto Golden Cookie" />
+        <Button text="Auto Upgrade" />
+        <Button text="Auto Building" />
+        <Button text="Stock Helper" />
         <h2>Stats</h2>
         <p>Upgrades Bought</p>
         <p>Buildings Bought</p>

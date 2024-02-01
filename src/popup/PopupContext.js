@@ -16,6 +16,8 @@ let initialState = {
   }
 };
 
+export default PopupContext;
+
 export const PopupContextProvider = ({ children }) => {
   const [popupStore, setPopupStore] = useState(initialState);
   return (
